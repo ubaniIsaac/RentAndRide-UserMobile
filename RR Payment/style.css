@@ -1,0 +1,196 @@
+@media screen and (max-width:765px) {
+    * {
+        background-color: #f2f2f2;
+    }
+    .container {
+        /* position: relative;  */
+        /* text-align: center; */
+        max-width: 400px;
+    }
+    .heading {
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    .promo__heading>div>ion-icon {
+        font-size: 40px;
+    }
+    .close {
+        display: inline-block;
+        height: 100%;
+        max-width: auto;
+    }
+    .title {
+        display: inline-block;
+        width: 100%;
+        height: 27px;
+        left: 121px;
+        top: 1px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 27px;
+        text-align: center;
+        color: rgba(18, 18, 18, 0.87);
+    }
+    .promo__instruction {
+        padding: 20px;
+        display: inline-block;
+        width: 90%;
+        height: 69px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(18, 18, 18, 0.87);
+    }
+    .input__promo {
+        width: 90%;
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: solid 1px lightgrey;
+    }
+    /* input[type="text"] ::placeholder {
+        left: 10px;
+        top: 10.5px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 40px;
+        text-align: center;
+        color: rgba(18, 18, 18, 0.67);
+    } */
+    .apply__btn {
+        position: fixed;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 20px;
+        /* padding: 4px; */
+        position: absolute;
+        width: 90%;
+        height: 47px;
+        /* left: 6px; */
+        bottom: 70px;
+        font-size: 16px;
+        color: #f2f2f2;
+        background: #1652F0;
+        border-radius: 3px;
+        border-style: none;
+    }
+    ion-item {
+        background: none;
+        padding-top: 5px;
+    }
+    .icons {
+        display: flex;
+        position: fixed;
+        text-align: center;
+        background: #f2f2f2;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        bottom: 10px;
+        left: 0;
+        border-top: solid 1px black;
+    }
+    ion-icon {
+        display: inline-block;
+        font-size: 28px;
+        background: none;
+        text-align: center;
+    }
+    .text {
+        display: flex;
+        padding: auto;
+        background: none;
+    }
+    /* Payment */
+    .payment__header {
+        /* width: 142px; */
+        height: 23px;
+        left: 0px;
+        top: 0px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(18, 18, 18, 0.87);
+    }
+    .details {
+        width: 126px;
+        height: 18px;
+        left: 0px;
+        top: 0px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: rgba(18, 18, 18, 0.87);
+    }
+    #my-form {
+        padding: 10px;
+        background: #f4f4f4;
+    }
+    #my-form label {
+        display: block;
+    }
+    .form_text {
+        width: 95%;
+        height: 18px;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+    }
+    .cc-number {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: solid 1px black;
+        height: 18px;
+        background-color: none
+    }
+    .cc-number>ion-icon {
+        font-size: 22px;
+        padding-right: 0px;
+    }
+    .cc-number>input {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 75%;
+        outline: none;
+        border: none;
+        background: none;
+    }
+    .text__short {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .text__short>input {
+        width: 95%;
+        height: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: solid 1px black;
+    }
+    .right {
+        /* margin-left: 50px; */
+    }
+    .space {
+        justify-content: space-between;
+        display: flex;
+    }
+    .head {
+        height: 49px;
+        background-color: #1652F0;
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+
+            </div>
+        </header>
+
+        <div class="heading">
+            <div>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </div>
+            <div class="title">Payment Method</div>
+        </div>
+
+        <form id="my-form">
+            <p class="payment__header"> Card Information</p>
+            <div>
+                <label for="name" class="details">Name on Card</label>
+                <input id="name" class="form_text" type="text" />
+            </div>
+
+            <div>
+                <label for="cc-number" class="details">Credit card number</label>
+                <div class="cc-number">
+                    <ion-icon name="card-outline"></ion-icon>
+                    <input id="cc-number" type="number">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="space">
+                <div class="text__short">
+                    <label for="expiration" class="details">Expiration date</label>
+                    <input id="expiration" type="number" />
+                </div>
+
+                <div class="text__short right">
+                    <label for="security" class="details">Security code</label>
+                    <input id="security " type="number" />
+                </div>
+            </div>
+
+            <p class="payment__header">Billing Information</p>
+            <div>
+                <label for="street" class="details">Street address</label>
+                <input id="street" class="form_text" type="text" />
+            </div>
+
+            <div class="space">
+                <div class="text__short">
+                    <label for="city" class="details">City</label>
+                    <input id="city" type="text" />
+                </div>
+
+                <div class="text__short right">
+                    <label for="state" class="details">State</label>
+                    <input id="state" type="text" />
+                </div>
+            </div>
+
+
+
+        </form>
+
+
+
+        <div><button type="submit" class="apply__btn">Apply</button></div>
+    </div>
+    <footer>
+        <div class="icons">
+            <ion-item>
+
+                <ion-icon name="git-branch-outline" class="icon"></ion-icon>
+
+                <span class="text">Home</span>
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="search-outline"></ion-icon>
+                <span class="text">Search</span>
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <span class="text">Messages</span>
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="car-outline"></ion-icon>
+                <span class="text">Host</span>
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                <span class="text">More</span>
+            </ion-item>
+        </div>
+
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
